@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>LoginPage.qml</file>
+        <file>RegisterPage.qml</file>
+        <file>Component/HiInputText.qml</file>
+        <file>MainMenu.qml</file>
+        <file>Component/MessageBox.qml</file>
+        <file>Search.qml</file>
+    </qresource>
+</RCC>

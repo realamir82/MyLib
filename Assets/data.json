@@ -1,0 +1,71 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "admin123",
+			"firstname": "admin",
+			"lastname": "admin",
+			"birthdate": "1/1/2000",
+			"admin": true,
+			"superadmin": true
+		},
+		{
+			"id": 2,
+			"username": "amirhossein",
+			"password": "bazi1234",
+			"firstname": "amirhosen",
+			"lastname": "farahmand",
+			"birthdate": "29/2/1382",
+			"admin": false,
+			"superadmin": false
+		},
+		{
+			"id": 3,
+			"username": "morteza3",
+			"password": "seda345",
+			"firstname": "morteza",
+			"lastname": "farahmand",
+			"birthdate": "18/12/1341",
+			"admin": false,
+			"superadmin": false
+		}
+	],
+	"books": [
+		{
+			"id": 1,
+			"title": "Shahnameh",
+			"shelfnumber": "A3",
+			"author": "Ferdowsi",
+			"edition": "1",
+			"publisher": "Penguin",
+			"publishyear": "2016",
+			"isbn": 9781101993231,
+			"length": "1040",
+			"subject": "Epic",
+			"status": false,
+			"who": "NULL"
+		},
+		{
+			"id": 2,
+			"title": "Hafiz",
+			"shelfnumber": "A2",
+			"author": "Hafiz",
+			"edition": "1",
+			"publisher": "CreateSpace",
+			"publishyear": "2015",
+			"isbn": 9781511986649,
+			"length": "676",
+			"subject": "Poetry",
+			"status": false,
+			"who": "NULL"
+		}
+	],
+	"borrowedbooks": [
+		{
+			"id": 1,
+			"userid":1,
+			"bookid":1
+		}
+	]
+}
